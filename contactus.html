@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jockey's Conference Center</title>
+    <link rel="stylesheet" href="contactus-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
+
+</head>
+<body>
+    <header>
+        <div class="container container-nav">
+            <a href="home1.html" class="logo">
+                <div class="title">
+                    <h1>JCC</h1>
+                    <p class="subtitle">Jockey's Conference Center</p>
+                </div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="home1.html" >HOME</a></li>
+                    <li><a href="ourevents.html">OUR EVENTS</a></li>
+                    <li><a href="pricelist.html">PRICE LIST</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contactus.html" class="current-page">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <form id="form-contactus">
+        <h2>Contact Us Here!</h2>
+        <div class="form-container">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your Full Name">
+        </div>
+        <div class="form-container">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your Email">
+        </div>
+        <div class="form-container">
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" name="phonenumber" id="phonenumber" placeholder="Enter your Phone Number">
+        </div>
+        <div class="form-container">
+            <label for="subject">Subject</label>
+            <select name="subject" id="subject">
+                <option value="subject" selected disabled>Subject</option>
+                <option value="information">Information</option>
+                <option value="planevent">Plan an Event</option>
+                <option value="purchasing">Purchasing</option>
+            </select>
+        </div>
+
+        <div class="form-container">
+            <label for="message">Message</label>
+            <textarea placeholder="Type your message..." name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="form-container">
+            <label>Preferred Contact Method</label>
+            <div class="checkbox-group">
+                <div>
+                    <input type="checkbox" id="phonebox" name="phonebox">
+                    <label for="phonebox">Phone</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="emailbox" id="emailbox">
+                    <label for="checkbox">Email</label>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="form-container-robot">
+            <input type="radio" name="robot" id="robot">
+            <label for="robot">I'm not a robot</label>
+        </div>
+
+        <button type="submit" id="send-button">Send</button>
+    </form>
+
+    <footer>
+        <div class="footercontainer">
+            <div class="footer footer-col1">
+                <h4 class="footertext">Find Us Here!</h4>
+                <div class="icon">
+                    <div class="icon-item item1">
+                        <a href="https://www.linkedin.com/">
+                            <img src="PICTURES\logo_linkedin.png" alt="Our linkedIn">
+                        </a>
+                    </div>
+                    <div class="icon-item item2">
+                        <a href="https://www.instagram.com/">
+                            <img src="PICTURES\logo_ig.png" alt="Our Instagram">
+                        </a>
+                    </div>
+                    <div class="icon-item item3">
+                        <a href="https://www.facebook.com/">
+                            <img src="PICTURES\logo_fb.png" alt="Our facebook">
+                        </a>
+                    </div>
+                    <div class="icon-item item4">
+                        <a href="https://twitter.com/home">
+                            <img src="PICTURES\logo_twt.png" alt="Our twitter">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer footer-col2">
+                <div class="footer">
+                    <h1>JCC</h1>
+                    <p class="subtitle">Jockey's Conference Center</p>
+                </div>
+                <div class="copyright">
+                    <p class="copyright-text">Copyright © JCC 2023. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="contactus.js"></script>
+</html>
