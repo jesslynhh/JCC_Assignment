@@ -7,8 +7,11 @@ This project is part of the Human Computer Interaction course (COMP6800001). The
 - About Us Page
 - Contact Us Page
   
-Technologies Used:
+<b>Technologies Used:</b>
 - HTML
 - CSS
 - JavaScript
 - Figma
+
+<b>Live demo:</b>
+https://jesslynhh.github.io/JCC_Assignment/
